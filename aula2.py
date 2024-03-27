@@ -22,7 +22,7 @@ def completo(nome):
     if nome == 'bernardo':
         return 'Acertou meu nome'
     elif nome == 'sei la':
-        return 'vai pro karalho'
+        return 'errou'
     else:
         return 'Voce nao sabe meu nome'
 
@@ -43,6 +43,8 @@ for item in [1,45,78,'a',[3,5]]:
 for letra in 'minha string':
     print(letra)
 
+
+      Piramide com n = 4
 
 for i in range(4):
     print((i + 1) * "*")
